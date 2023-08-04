@@ -1,0 +1,32 @@
+{
+  "name": "ml",
+  "version": "1.0.0",
+  "description": "Machine Learning algorithms",
+  "main": "index.js",
+  "scripts": {
+    "linear-regression": "node linear-regression/index.js",
+    "logistic-regression": "node logistic-regression/index.js",
+    "decision-tree": "node decision-tree/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ejbogantes/ml.git"
+  },
+  "keywords": [
+    "ml",
+    "ai",
+    "machine-learning"
+  ],
+  "author": "Emilio Bogantes <ejbogantes@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ejbogantes/ml/issues"
+  },
+  "homepage": "https://github.com/ejbogantes/ml#readme",
+  "dependencies": {
+    "decision-tree": "^0.3.7",
+    "ml-logistic-regression": "^2.0.0",
+    "ml-regression": "^5.0.0"
+  }
+}
