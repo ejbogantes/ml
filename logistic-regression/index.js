@@ -1,6 +1,9 @@
 // Example code for Logistic Regression
 const LogisticRegression = require("ml-logistic-regression");
 
+// check
+// https://www.npmjs.com/package/ml-logistic-regression
+
 // Sample data
 const data = [
   [1, 0],
@@ -23,6 +26,6 @@ const coefficients = model.coefficients;
 console.log("Coefficients:", coefficients);
 
 // Predict new values
-const newX = [6, 1];
+const newX = [2, 0];
 const prediction = model.predict(newX);
 console.log("Prediction for", newX, ":", prediction);

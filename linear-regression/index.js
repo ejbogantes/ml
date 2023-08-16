@@ -5,8 +5,8 @@ const data = require("./data.json");
 const SLR = require("ml-regression").SLR;
 
 // Sample data
-// const x = [80, 60, 10, 20, 30];
-// const y = [20, 40, 30, 50, 60];
+//const x = [80, 60, 10, 20, 30];
+//const y = [20, 40, 30, 50, 60];
 
 // Extract "YearsExperience" and "Salary" into separate arrays
 const x = data.map((item) => item.YearsExperience);
@@ -19,8 +19,9 @@ const model = new SLR(x, y);
 console.log(model.toString(3));
 
 // Predict new values
-const newX = 15;
+const newX = 12;
 const newY = Math.round(model.predict(newX));
+// console.log(`result: ${newY}`);
 console.log(
   `Predicted salary for ${newX} years of experience: USD ${newY} annual`
 );
