@@ -8,6 +8,7 @@
     "logistic-regression": "node logistic-regression/index.js",
     "decision-tree": "node decision-tree/index.js",
     "object-detection": "node object-detection/index.js",
+    "dataset-faker": "node dataset-faker/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -29,8 +30,13 @@
     "@tensorflow-models/coco-ssd": "^2.2.2",
     "@tensorflow/tfjs-node": "^4.10.0",
     "canvas": "^2.11.2",
+    "csv-writer": "^1.6.0",
     "decision-tree": "^0.3.7",
     "ml-logistic-regression": "^2.0.0",
-    "ml-regression": "^5.0.0"
+    "ml-regression": "^5.0.0",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^8.0.2"
   }
 }
